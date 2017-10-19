@@ -4,3 +4,4 @@
      - win_copy:
         src: testfile.txt
         dest: 'C:\Users\vagrant\'
+        force: yes
