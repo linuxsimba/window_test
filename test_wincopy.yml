@@ -1,0 +1,6 @@
+---
+- hosts: linuxsimbaad
+  tasks:
+     - win_copy:
+        src: testfile.txt
+        dest: 'C:\Users\vagrant\'
